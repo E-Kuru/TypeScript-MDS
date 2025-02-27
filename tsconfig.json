@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ES6",
+        //Ne compil pas vers Js si erreur dans le code
+        "noEmitOnError": true,
+        //permet d'afficher TOUTES les erreurs
+        "strict": true,
+        "declaration": true
+    },
+    "files": ["src/app.ts"]
+}
